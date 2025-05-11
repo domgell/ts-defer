@@ -1,14 +1,18 @@
 {
   "name": "@domgell/defer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.ts",
   "exports": "./src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
-  },
   "keywords": ["defer", "using", "cleanup", "clean", "deferred", "callback", "go"],
   "author": "domgell",
   "license": "ISC",
-  "description": "Go-style defer with `using` and `[Symbol.dispose]`"
+  "description": "Go-style defer with `using` and `[Symbol.dispose]`",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domgell/ts-defer.gt"
+  },
+  "bugs": {
+    "url": "https://github.com/domgell/ts-defer/issues"
+  },
+  "homepage": "https://github.com/domgell/ts-defer#readme"
 }
